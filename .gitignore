@@ -1,0 +1,9 @@
+.DS_Store
+**/__pycache__/
+
+# Ignore Python virtual environments
+/venv
+
+# Ignore .esphome directory in any subfolder
+**/.esphome/
+**/secrets.yaml
