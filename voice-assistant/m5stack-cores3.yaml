@@ -82,7 +82,7 @@ ota:
   - platform: esphome
     # Replace the key by your OTA key
     # password: "<YOUR_OTA_KEY>"
-    password: "58132d6daf8ed301196ec80d8c40b9c7"
+    password: "881bf72863f75092ba4cb96d9429a0c6"
 
 wifi:
   ssid: "GL-AXT1800-06a"
