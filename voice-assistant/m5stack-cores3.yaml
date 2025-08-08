@@ -59,8 +59,8 @@ psram:
 external_components:
   - source:
       #../components
-      # type: git
-      # url: https://github.com/m5stack/M5CoreS3-Esphome
+      type: git
+      url: https://github.com/m5stack/M5CoreS3-Esphome
     components: [board_m5cores3, m5cores3_audio, m5cores3_display]
     refresh: 0s
 
@@ -72,7 +72,7 @@ api:
   encryption:
     # Replace the key by your API key
     # key: "<YOUR_API_KEY>"
-    key: "v7tJnLBPCRwZjk+Di+rUJHt01f1KliItw2pzBR/rOdI="
+    key: "udxYWPkviV7eqZbpRk25ah8pa6drN+PID8qEdxDY0xU="
   on_client_connected:
     - script.execute: draw_display
   on_client_disconnected:
